@@ -6,6 +6,8 @@ class Employee:
 
 	def fullname(self):
 		return '{}  {}'.format(self.fname, self.lname)
-
+	
+	def email(self):
+		return '{}.{}@company.com'.format(self.fname,self.lname)
 
 
