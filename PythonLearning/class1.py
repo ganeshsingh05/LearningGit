@@ -4,5 +4,8 @@ class Employee:
 		self.lname = lname
 		self.pay = pay
 
+	def fullname(self):
+		return '{}  {}'.format(self.fname, self.lname)
+
 
 
